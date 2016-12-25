@@ -171,7 +171,8 @@
   <?php $this->load->view('part/foot') ?>
 </div>
 <?php $this->load->view('part/foot-js') ?>
- <script type="text/javascript">
+ 
+<script type="text/javascript">
 
     $(document).ready(function(){
         $('#myform').on('submit',function(){
