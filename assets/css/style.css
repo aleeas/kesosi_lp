@@ -2047,3 +2047,29 @@ input[type="submit"]:hover {
     padding: 20px;
     min-height: 39vh;
 }
+ul.icon-mhs{
+	width: 50%;
+	margin: auto;
+}
+
+ul.icon-mhs li{
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+}
+ul.icon-mhs li img{
+	width: 175px;
+	min-height: 175px;
+	max-height: 175px;
+}
+.btn.btn-mhs{
+	background: #216d98;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#nav li.acc-menu:hover ul {
+	left:-95px;
+}
+ 
