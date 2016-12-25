@@ -2072,4 +2072,17 @@ ul.icon-mhs li img{
 #nav li.acc-menu:hover ul {
 	left:-95px;
 }
- 
+table.table-khs, table.table-krs{
+	border-collapse: collapse;
+    font-size: 13px;
+    line-height: 2;
+}
+
+table.table-krs tr{
+	line-height: 44px;
+}
+
+table.table-krs input{
+	padding: 5px;
+	font-size: 13px;
+}
