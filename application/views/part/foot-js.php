@@ -10,6 +10,7 @@
 <script type="text/javascript" src="<?php echo base_url("assets/js/lightbox-plus-jquery.min.js"); ?>"></script>
 <!-- <script type="text/javascript" src="<?php echo base_url("assets/js/jquery.colorbox.js"); ?>"></script> -->
 <script type="text/javascript" src="<?php echo base_url("assets/js/slick.js"); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url("assets/js/sweetalert/sweetalert.min.js"); ?>"></script>
 <script type="text/javascript">
 	$('.redaksi_choice').slick({
 		slidesToShow: 4,
@@ -33,6 +34,16 @@
 		$('#seminar').hide();
 	});
 </script>
+<script>
+    $(document).ready(function() {
+              
+        $(".dropthis").click(function(){
+          $(".content-drop").slideToggle();
+        });
+
+              
+    });
+</script> 
 
 
 

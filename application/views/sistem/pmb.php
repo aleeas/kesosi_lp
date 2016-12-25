@@ -14,7 +14,7 @@
           Program S1, D3 dan NERS Sekolah TInggi Ilmu Kesehatan KESOSI</div>
           
           <div class="wrapper">
-          <?php echo form_open('pmb_proses', 'class="email" id="myform"'); ?>
+          <form id="myform" method="post">
             <div class="left-side">
                <div class="form-grp">
                   <label>Nama Lengkap *</label>
@@ -46,24 +46,24 @@
                 </div>
                 <div class="form-grp">
                   <label>Kode Pos *</label>
-                  <input type="text" name="kodepos" />
+                  <input type="text" name="kodepos1" />
                 </div>
                 <div class="form-grp radio">
                 <fieldset class="gender">
                   <legend>Pilih Jenis Kelamin: </legend>
                   
-                  <input type="radio" name="radio-1" id="radio-1">
+                  <input type="radio" name="jk" id="radio-1">
                   <label for="radio-1">Pria</label>
                   
-                  <input type="radio" name="radio-1" id="radio-2">
+                  <input type="radio" name="jk" id="radio-2">
                   <label for="radio-2">Wanita</label>
                   
                 </fieldset>
                 </div>
                  <div class="form-grp">
                   <label>Agama *</label>
-                  <select>
-                    <option selected>Silahkan Pilih Agama</option>
+                  <select name="agama" >
+                    <option value="" disabled selected>Silahkan Pilih Agama...</option>
                     <option>Islam</option>
                     <option>Katholik</option>
                     <option>Protestan</option>
@@ -83,7 +83,7 @@
 
                 <div class="form-grp">
                   <label>Kode Pos *</label>
-                  <input type="text" name="kodepos" />
+                  <input type="text" name="kodepos2" />
                 </div>
 
                 <div class="form-grp">
@@ -106,8 +106,8 @@
                 </div>
                 <div class="form-grp">
                   <label>Status Pekerjaan *</label>
-                  <select>
-                    <option selected>Silahkan Pilih</option>
+                  <select name="status_kerja">
+                    <option value="" disabled selected>Silahkan Pilih</option>
                     <option>Bekerja</option>
                     <option>Belum Bekerja</option>                
                   </select>
@@ -120,8 +120,8 @@
 
                 <div class="form-grp">
                   <label>Status Perkawinan *</label>
-                  <select>
-                    <option selected>Silahkan Pilih</option>
+                  <select name="status_kawin">
+                    <option value="" disabled selected>Silahkan Pilih</option>
                     <option>Menikah</option>
                     <option>Belum Menikah</option>
                     <option>Duda/Janda</option>                
@@ -130,8 +130,8 @@
 
                 <div class="form-grp">
                   <label>Program Study Pilihan *</label>
-                  <select>
-                    <option selected>Silahkan Pilih</option>
+                  <select name="study_pilihan">
+                    <option value="" disabled selected>Silahkan Pilih</option>
                     <option>S1 Keperawatan</option>
                     <option>Profesi Ners</option>
                     <option>D3 Analis Kesehatan</option>                
@@ -142,16 +142,16 @@
                 <fieldset class="gender">
                   <legend>Ukuran Jaket: </legend>
                   
-                  <input type="radio" name="radio-1" id="radio-s">
+                  <input type="radio" name="ukuran_jaket" id="radio-s">
                   <label for="radio-s">S</label>
                   
-                  <input type="radio" name="radio-1" id="radio-m">
+                  <input type="radio" name="ukuran_jaket" id="radio-m">
                   <label for="radio-m">M</label>
 
-                  <input type="radio" name="radio-1" id="radio-l">
+                  <input type="radio" name="ukuran_jaket" id="radio-l">
                   <label for="radio-l">L</label>
                   
-                  <input type="radio" name="radio-1" id="radio-xl">
+                  <input type="radio" name="ukuran_jaket" id="radio-xl">
                   <label for="radio-xl">XL</label>
                   
                 </fieldset>
@@ -171,3 +171,37 @@
   <?php $this->load->view('part/foot') ?>
 </div>
 <?php $this->load->view('part/foot-js') ?>
+ <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('#myform').on('submit',function(){
+            $.ajax({
+                url:'<?php echo site_url()?>/website/create_pmb',
+                type:'post',
+                dataType:'JSON',
+                data:$('#myform').serialize(),
+                success:function(e){
+                    if(e.status){
+                        swal({
+                            title:e.msg,
+                            text:null,
+                            type:e.type
+                        },
+                        function(){
+                            location.reload();
+                        });
+                        console.log(e);
+                    }else{
+                        swal(e.msg,'Please complete the form contents',e.type);
+                        console.log(e);
+                    }
+                },
+                error:function(e){
+                    console.error(e);
+                }
+            });
+            return false;
+            
+        });
+    })
+</script>
