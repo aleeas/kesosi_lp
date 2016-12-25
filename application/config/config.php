@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'localhost/campus_ci_version/';
+// $config['base_url'] = 'http://localhost/stikes_kesosi/';
 $config['base_url'] = 'http://localhost/stikes_kesosi/';
 /*
 |--------------------------------------------------------------------------
