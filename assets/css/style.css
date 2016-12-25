@@ -2041,3 +2041,9 @@ input[type="submit"]:hover {
 .stack{
 	margin: 0 auto 20px;
 }
+
+.wrapper-board{
+	background: #f2f2f2;
+    padding: 20px;
+    min-height: 39vh;
+}

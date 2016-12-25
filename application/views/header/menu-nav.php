@@ -38,7 +38,7 @@
         <li><a href="javascript:;">Sistem Online</a>
           <ul>
             <li><a href="<?php echo site_url("website/pmb");?>" class="<?php if($this->uri->uri_string() == 'website/pmb') { echo 'active'; } ?>">PMB Online</a></li>
-            <li><a href="">Sisfokampus</a></li>
+            <li><a href="<?php echo site_url("auth");?>" class="<?php if($this->uri->uri_string() == 'auth') { echo 'active'; } ?>">Sisfokampus</a></li>
             <li><a href="<?php echo site_url("website/perpus");?>" class="<?php if($this->uri->uri_string() == 'website/perpus') { echo 'active'; } ?>">Perpustakaan</a></li>
           </ul>
         </li>

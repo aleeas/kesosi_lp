@@ -96,6 +96,7 @@ class Website extends CI_Controller {
 	{
 		$this->load->view('sistem/pmb');
 	}
+	
 	public function gallery()
 	{
 		$this->load->view('gallery/index-gallery');
