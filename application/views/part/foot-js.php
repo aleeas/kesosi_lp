@@ -34,16 +34,7 @@
 		$('#seminar').hide();
 	});
 </script>
-<script>
-    $(document).ready(function() {
-              
-        $(".dropthis").click(function(){
-          $(".content-drop").slideToggle();
-        });
 
-              
-    });
-</script> 
 
 
 

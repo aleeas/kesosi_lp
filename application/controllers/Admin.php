@@ -33,8 +33,18 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/mahasiswa');
 	}
 
+	public function mhs_detail()
+	{
+		$this->load->view('admin/detail-mhs');
+	}
+
 	public function maba()
 	{
 		$this->load->view('admin/maba');
+	}
+
+	public function mabadetail()
+	{
+		$this->load->view('admin/detail-maba');
 	}
 }

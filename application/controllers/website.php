@@ -153,7 +153,6 @@ class Website extends CI_Controller {
 				'jenkel'=>$this->input->post('jk'),
 				'agama'=>$this->input->post('agama'),
 				'tempat_lahir'=>$this->input->post('tempatlahir'),
-				'kodepos_dua'=>$this->input->post('kodepos2'),
 				'telp_rumah'=>$this->input->post('telp'),
 				'nama_ibu'=>$this->input->post('ibukandung'),
 				'no_hp'=>$this->input->post('handphone'),

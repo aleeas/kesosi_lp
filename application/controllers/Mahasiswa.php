@@ -7,7 +7,22 @@ class Mahasiswa extends CI_Controller {
 	{
 		$this->load->view('mahasiswa/krs');
 	}
-
+	public function krs_info()
+	{
+		$this->load->view('mahasiswa/krs-info');
+	}
+	public function print_krs()
+	{
+		$this->load->view('mahasiswa/print-krs');
+	}
+	public function krs_confirm()
+	{
+		$this->load->view('mahasiswa/krs-confirm');
+	}
+	public function mhs_detail()
+	{
+		$this->load->view('mahasiswa/detail-mhs');
+	}
 	public function khs()
 	{
 		$this->load->view('mahasiswa/khs');

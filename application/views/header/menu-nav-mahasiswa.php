@@ -6,7 +6,7 @@
         <li style="float:right" class="acc-menu">
         	<a href="javascript:;">Account</a>
 			<ul>
-				<li><a href="#">My Account</a></li>
+				<li><a href="<?php echo site_url("mahasiswa/mhs_detail");?>">My Account</a></li>
 				<li><a href="<?php echo site_url("auth");?>">Logout</a></li>
 			</ul>
         </li>      

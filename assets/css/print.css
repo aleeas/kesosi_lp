@@ -1,0 +1,173 @@
+    @font-face {
+      font-family: "Roboto";
+      src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.eot");
+      src: url("../fonts/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff"), url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.eot");
+      src: url("../fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+      font-weight: 300;
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.eot");
+      src: url("../fonts/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff"), url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      src: url("../fonts/roboto/Roboto-Medium.eot");
+      src: url("../fonts/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff"), url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+      font-weight: 500;
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      src: url("../fonts/roboto/Roboto-Bold.eot");
+      src: url("../fonts/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff"), url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+      font-weight: 700;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    html {
+      line-height: 1.5;
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      color: rgba(0, 0, 0, 0.87);
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .page {
+        position: relative;
+        width: 210mm;
+        min-height: 297mm;
+        padding: 20mm;
+        margin: 10mm auto;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .frame-form{
+       border: 1px solid #ddd;
+       height: 180mm;
+       padding: 3px;
+    }
+    .container-form{
+        height: 100%;
+        border: 1px solid #ddd;
+    }
+    .subpage {
+        padding: 1cm;
+        border: 5px red solid;
+        height: 257mm;
+        outline: 2cm #FFEAEA solid;
+    }
+    .page h6{
+        margin: 20px;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .signature{
+        border: 1px solid #ddd;
+        margin-top: 10px;
+        min-height: 150px;
+        min-width: 150px;
+    }
+    .signature p{    
+      border-bottom: 1px solid #ddd;
+      margin: 0;
+      padding: 10px;
+    }
+    .separate-div{
+        border-bottom: 2px solid #000;
+    }
+    span.title{
+      text-transform: uppercase;
+    }
+    ul.detail-list li{
+      float: left;
+      width: 100%;
+      padding: 10px;
+    }
+    
+    ul.detail-list li:nth-child(2), ul.detail-list li:nth-child(8), ul.detail-list li:nth-child(10){
+      border-bottom: 1px solid #ddd;
+    }
+
+    .detail-list .title{
+        float: left;
+        width: 237px;
+    }
+    .detail-list .value_name{
+        float: left;
+        max-width: 400px;
+    }
+    ul.detail-list-2{
+      float: left;
+      width: 100%;
+      margin-top: 50px;
+    }
+    ul.detail-list-2 li{
+      float: left;
+      width: 100%;
+     
+    }
+    .detail-list-2 .title{
+        float: left;
+        width: 150px;
+    }
+    .detail-list-2 .value_name{
+        float: left;
+        max-width: 400px;
+    }
+
+    .detail-list-2 .value_name:before{
+      content: ":";
+      margin-right: 10px;
+    }
+
+    .detail-list .value_name:before{
+      content: ":";
+      margin-right: 10px;
+    }
+
+    table.table-border{
+    border:1px solid #ddd;
+}
+table.table-border th{
+    border:1px solid #ddd;
+}
+table.table-border td{
+    border:1px solid #ddd;
+}
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+        html, body {
+            width: 210mm;
+            height: 297mm;        
+        }
+        .page {
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+        }
+    }

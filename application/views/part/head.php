@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Sekolah Tinggi Ilmu Kesehatan Indonesia | STIKES KESOSI</title>
 <!--CSS -->
+
 <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/component.css");?>" />
 <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/lightbox.min.css");?>" />
 <link rel="stylesheet" type="text/css" href="<?php echo base_url("assets/css/sweetalert.css");?>" />
