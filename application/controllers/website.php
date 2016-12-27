@@ -117,20 +117,20 @@ class Website extends CI_Controller {
 		$this->load->view('sistem/perpus');
 	}
 	public function create_pmb() {
-		$this->form_validation->set_rules('nama','Nama Lengkap','required');
-		$this->form_validation->set_rules('panggilan','Project','required');
+		$this->form_validation->set_rules('nama_lengkap','Nama Lengkap','required');
+		$this->form_validation->set_rules('nama_panggilan','Project','required');
 		$this->form_validation->set_rules('ktp','Nomor KTP','required');
 		$this->form_validation->set_rules('alamat','Alamat','required');
-		$this->form_validation->set_rules('desa','Desa','required');
-		$this->form_validation->set_rules('kabupaten','Kabupaten','required');
+		$this->form_validation->set_rules('kelurahan','Desa','required');
 		$this->form_validation->set_rules('kecamatan','Kecamatan','required');
-		$this->form_validation->set_rules('kodepos1','Kode Pos','required');
+		$this->form_validation->set_rules('kota','Kabupaten','required');
+		$this->form_validation->set_rules('kodepos','Kode Pos','required');
 		$this->form_validation->set_rules('agama','Agama','required');
 		$this->form_validation->set_rules('tempatlahir','Tempat Lahir','required');
-		$this->form_validation->set_rules('kodepos2','Kode Pos','required');
-		$this->form_validation->set_rules('telp','Telp Rumah','required');
+		$this->form_validation->set_rules('tanggallahir','Tanggal Lahir','required');
+		$this->form_validation->set_rules('ayahkandung','Ayah Kandung','required');
 		$this->form_validation->set_rules('ibukandung','Ibu Kandung','required');
-		$this->form_validation->set_rules('handphone','No Handphone','required');
+		$this->form_validation->set_rules('no_hp','No Handphone','required');
 		$this->form_validation->set_rules('email','Email','required');
 		$this->form_validation->set_rules('status_kerja','Status Pekerjaan','required');
 		$this->form_validation->set_rules('status_kawin','Status Perkawinan','required');
@@ -142,29 +142,32 @@ class Website extends CI_Controller {
 		} else {
 			$array = array(
 				'id'=>"",
-				'nama_lengkap'=>$this->input->post('nama'),
-				'nama_panggilan'=>$this->input->post('panggilan'),
+				'nama_lengkap'=>$this->input->post('nama_lengkap'),
+				'nama_panggilan'=>$this->input->post('nama_panggilan'),
 				'no_ktp'=>$this->input->post('ktp'),
 				'alamat'=>$this->input->post('alamat'),
-				'kelurahan'=>$this->input->post('desa'),
-				'kota'=>$this->input->post('kabupaten'),
+				'kelurahan'=>$this->input->post('kelurahan'),
 				'kecamatan'=>$this->input->post('kecamatan'),
-				'kodepos_satu'=>$this->input->post('kodepos1'),
+				'kota'=>$this->input->post('kota'),
+				'kode_pos'=>$this->input->post('kodepos'),
 				'jenkel'=>$this->input->post('jk'),
 				'agama'=>$this->input->post('agama'),
 				'tempat_lahir'=>$this->input->post('tempatlahir'),
+				'tanggal_lahir'=>$this->input->post('tanggallahir'),
 				'telp_rumah'=>$this->input->post('telp'),
+				'nama_ayah'=>$this->input->post('ayahkandung'),
 				'nama_ibu'=>$this->input->post('ibukandung'),
-				'no_hp'=>$this->input->post('handphone'),
+				'alamat_ortu'=>$this->input->post('alamat_ortu'),
+				'no_hp'=>$this->input->post('no_hp'),
 				'email'=>$this->input->post('email'),
 				'status_kerja'=>$this->input->post('status_kerja'),
-				'nama_instansi'=>$this->input->post('perusahaan'),
+				'nama_perusahaan'=>$this->input->post('perusahaan'),
 				'status_kawin'=>$this->input->post('status_kawin'),
 				'prog_study'=>$this->input->post('study_pilihan'),
 				'ukuran_jaket'=>$this->input->post('ukuran_jaket')
 				);
 				$sql = $this->model->create_pmb($array);
-				if($sql){
+				if($sql > 0){
 					echo json_encode(["status"=>true,"msg"=>"Cash Advance Created Success","type"=>"success"]);
 				}else{
 					echo json_encode(["status"=>false,"msg"=>"Cash Advance Created Failed","type"=>"error"]);
