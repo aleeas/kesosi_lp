@@ -9,7 +9,7 @@
     <!--content area -->
     <div id="content">
 	    <div class="wrapper-board">
-          <table class="table-maba" border="1" width="100%" cellspacing="0">
+          <table class="table-maba" border="1" width="100%" cellspacing="0" style="border:1px solid #ddd">
               <thead>
                 <tr style="background-color:#003c60; color:#FFFFFF;">
                   <th>No</th>
@@ -22,7 +22,7 @@
                   <th>Action</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody bgcolor="#fff">
                 <tr style="text-align:center">
                   <td>1</td>
                   <td>Ahmad Suhaili</td>
