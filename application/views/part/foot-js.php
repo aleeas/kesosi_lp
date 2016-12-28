@@ -2,6 +2,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="<?php echo base_url("assets/js/modal.js") ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/jquery-migrate-1.2.1.min.js") ?>"></script>
+
 <script type="text/javascript" src="<?php echo base_url("assets/js/cufon-yui.js"); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/swiss.js"); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/hoverIntent.js"); ?>"></script>
