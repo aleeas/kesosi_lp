@@ -9,11 +9,12 @@
     <!--content area -->
     <div id="content">
 	    <div class="wrapper-board">
-          <table class="table-maba" border="1" width="100%" cellspacing="0" style="border:1px solid #ddd">
+          <table class="table-krs" border="1" width="100%" cellspacing="0" style="border:1px solid #ddd">
               <tbody bgcolor="#fff"><tr><td colspan="12" align="center" bgcolor="#fff" style="text-transform:uppercase;">
               <strong>DAFTAR Dosen</strong></td>
               </tr>
               <tr>
+              <td align="center">No</td>
               <td align="center">Kode Dosen</td>
               <td align="center">NIDN</td>
               <td align="center">Nama Dosen</td>               
@@ -24,6 +25,7 @@
               </tr>
               
                 <tr>
+                  <td align="center">1</td>
                   <td align="center">D001</td>  
                   <td align="center">0960011001</td>
                   <td align="center">Bondan Prakoso S.Pd M.M</td>                  
@@ -33,6 +35,7 @@
                     <a href="http://localhost/siakad-master/admin/hapus_mahasiswa/0960011001" onclick="return confirm(&quot;Anda yakin...??&quot;)" class="link" >Hapus</a></td> 
                   </tr>
                 <tr>
+                  <td align="center">2</td>
                   <td align="center">D002</td>  
                   <td align="center">0960011001</td>
                   <td align="center">Imam Hanafi S.Pd M.M</td>                  

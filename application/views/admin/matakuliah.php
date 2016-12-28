@@ -14,6 +14,7 @@
           <tbody bgcolor="#fff"><tr><td colspan="12" align="center" bgcolor="#fff" style="text-transform:uppercase;"><strong>DAFTAR MATA KULIAH</strong></td>
           </tr>
           <tr>
+            <td align="center">No</td>
             <td align="center">Kode MK</td>
             <td align="center">Nama MK</td>
             <td align="center">Jumlah SKS</td>
@@ -25,6 +26,7 @@
           </tr>
   
           <tr>
+            <td align="center">1</td>
             <td align="center">1111101</td>
             <td align="center">Agama</td>
             <td align="center">3</td>
@@ -38,6 +40,7 @@
             </td>     
           </tr>
           <tr>
+            <td align="center">2</td>
             <td align="center">1111102</td>
             <td align="center">Pancasila dan Kewarganegaraan </td>
             <td align="center">3</td>
@@ -51,6 +54,7 @@
             </td>     
           </tr>
           <tr>
+            <td align="center">3</td>
             <td align="center">1111103</td>
             <td align="center">Kepemimpinan </td>
             <td align="center">3</td>

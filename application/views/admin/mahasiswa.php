@@ -9,7 +9,7 @@
     <!--content area -->
     <div id="content">
 	    <div class="wrapper-board">
-          <table class="table-maba" border="1" width="100%" cellspacing="0" style="border:1px solid #ddd">
+          <table class="table-krs" border="1" width="100%" cellspacing="0" style="border:1px solid #ddd">
               <tbody bgcolor="#fff"><tr><td colspan="12" align="center" bgcolor="#fff" style="text-transform:uppercase;">
               <strong>DAFTAR MAHASISWA</strong></td>
               </tr>
