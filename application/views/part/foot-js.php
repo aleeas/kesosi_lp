@@ -1,5 +1,6 @@
 <!--Js -->
-<script type="text/javascript" src="<?php echo base_url("assets/js/jquery-3.1.1.min.js") ?>"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="<?php echo base_url("assets/js/modal.js") ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/jquery-migrate-1.2.1.min.js") ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/cufon-yui.js"); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/swiss.js"); ?>"></script>
@@ -11,6 +12,7 @@
 <!-- <script type="text/javascript" src="<?php echo base_url("assets/js/jquery.colorbox.js"); ?>"></script> -->
 <script type="text/javascript" src="<?php echo base_url("assets/js/slick.js"); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/sweetalert/sweetalert.min.js"); ?>"></script>
+
 <script type="text/javascript">
 	$('.redaksi_choice').slick({
 		slidesToShow: 4,
@@ -33,8 +35,8 @@
 		$('.gal-button a').css({"color": "#fff", "text-decoration": "none"});
 		$('#seminar').hide();
 	});
+	 
 </script>
-
 
 
 

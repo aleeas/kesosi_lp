@@ -47,4 +47,9 @@ class Admin extends CI_Controller {
 	{
 		$this->load->view('admin/detail-maba');
 	}
+
+	public function addSchedule()
+	{
+		$this->load->view('admin/tambah-jadwal');
+	}
 }

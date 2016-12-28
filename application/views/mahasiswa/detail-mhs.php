@@ -15,7 +15,7 @@
                 <div class="center hover">
                     <img style="box-shadow: #333 0px 0px 8px; -moz-box-shadow: #333 0px 0px 8px; -webkit-box-shadow: #333 0px 0px 8px; border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;" width="200" height="" src="<?php echo base_url("assets/images/default.png") ?>" class=""></div>
                 <div class="command-group">
-                    <a href="http://localhost/sinilugos/index.php/user/ganti_password" class="button">Ganti Password</a>    <a href="http://localhost/sinilugos/index.php/user/nilai_pdf" class="button">Cetak Nilai ke PDF</a>
+                    <a href="http://localhost/sinilugos/index.php/user/ganti_password" class="button">Ganti Password</a>    
                 </div>
             </div>
             <div class="center">

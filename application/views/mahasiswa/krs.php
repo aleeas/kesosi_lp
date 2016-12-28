@@ -50,7 +50,7 @@
             </table>
 
 
-            <table border="1" width="100%" class="table-krs" cellpadding="5">
+            <table border="1" width="100%" class="table-krs" cellpadding="5"  style="border:1px solid #ddd">
             <tbody bgcolor="#fff">
             <tr>
               <td colspan="12" align="center" style="text-transform:uppercase;background:#003c60;color:#fff;">

@@ -60,7 +60,7 @@
                 </ul>
             </div>
             <br class="clear">
-                <table border="1" width="100%" class="table-krs" cellpadding="5" style="margin-top:30px;">
+                <table border="1" width="100%" class="table-krs" cellpadding="5" style="margin-top:30px;border:1px solid #ddd">
                     <tbody bgcolor="#fff">
                    
                     <tr>
