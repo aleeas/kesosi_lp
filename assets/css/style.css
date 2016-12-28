@@ -2072,7 +2072,7 @@ ul.icon-mhs li img{
 }
 
 #nav li.acc-menu:hover ul {
-	left:-99px;
+	left:-95px;
 }
 table.table-khs, table.table-krs, table.table-maba{
 	border-collapse: collapse;
@@ -2091,19 +2091,19 @@ table.table-krs input{
 
 
 
-fieldset {
+fieldset.three {
         background:#D9DCDC; padding:10px 20px 20px; margin-bottom:10px;
         -webkit-border-radius:5px;
         -moz-border-radius:5px;
         border-radius:5px
     }
-fieldset h1 { font-size:1.6em; padding:0 0 10px }
-fieldset > div > div { background:none; padding:0 0 15px; vertical-align:middle; display:table; width:100% }
-fieldset label { float:none; padding:0; color:#000; display:block; font-weight:bold; text-shadow:0 1px 1px rgba(255,255,255,0.85); line-height:27px; font-size:1.2em }
-fieldset input[type="text"],
-fieldset select { float:none; line-height:20px; color:#333; font-size:1.2em; display:block }
-fieldset select { height:25px; border: 1px solid #A2A29F; }
-fieldset img { margin:0 0 20px }
+fieldset.three h1 { font-size:1.6em; padding:0 0 10px }
+fieldset.three > div > div { background:none; padding:0 0 15px; vertical-align:middle; display:table; width:100% }
+fieldset.three label { float:none; padding:0; color:#000; display:block; font-weight:bold; text-shadow:0 1px 1px rgba(255,255,255,0.85); line-height:27px; font-size:1.2em }
+fieldset.three input[type="text"],
+fieldset.three select { float:none; line-height:20px; color:#333; font-size:1.2em; display:block }
+fieldset.three select { height:25px; border: 1px solid #A2A29F; }
+fieldset.three img { margin:0 0 20px }
 
 fieldset.two > .left { width:47%; margin-right:10px }
 fieldset.two > .right { width:47% }
@@ -2802,4 +2802,21 @@ input[type="button"].btn-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.ui-datepicker {
+    width: 20em;
+    padding: .2em .2em 0;
+    display: none;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 48%;
+    margin: 0 2px;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0;
+    line-height: 1.8em;
+    text-align: center;
 }

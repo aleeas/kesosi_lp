@@ -188,21 +188,20 @@
                 success:function(e){
                     if(e.status){
                         swal({
-                            title:e.msg,
-                            text:null,
+                            title:'Success!!',
+                            text:e.msg,
                             type:e.type
-                        },  
+                        },
                         function(){
                             location.reload();
                         });
-                        console.log(e);
                     }else{
-                        swal(e.msg,'Please complete the form contents',e.type);
+                        swal('Form Tidak Lengkap',e.msg,e.type);
                         console.log(e);
                     }
                 },
                 error:function(e){
-                    console.error(e);
+                    console.log(e);
                 }
             });
             return false;

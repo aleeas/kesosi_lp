@@ -168,9 +168,9 @@ class Website extends CI_Controller {
 				);
 				$sql = $this->model->create_pmb($array);
 				if($sql > 0){
-					echo json_encode(["status"=>true,"msg"=>"Cash Advance Created Success","type"=>"success"]);
+					echo json_encode(["status"=>true,"msg"=>"Success","type"=>"success"]);
 				}else{
-					echo json_encode(["status"=>false,"msg"=>"Cash Advance Created Failed","type"=>"error"]);
+					echo json_encode(["status"=>false,"msg"=>"Failed","type"=>"error"]);
 			}
 			
 		 }
