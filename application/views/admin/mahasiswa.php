@@ -14,6 +14,7 @@
               <strong>DAFTAR MAHASISWA</strong></td>
               </tr>
               <tr>
+              <td align="center">No</td>
               <td align="center">NIM</td>
               <td align="center">Nama Mahasiswa</td>
               <td align="center">Angkatan</td>  
@@ -26,6 +27,7 @@
               </tr>
               
                 <tr>
+                  <td align="center">1</td>
                   <td align="center">0960011001</td>  
                   <td align="center">Bondan Galau</td>
                   <td align="center">2009</td>
@@ -37,6 +39,7 @@
                     <a href="http://localhost/siakad-master/admin/hapus_mahasiswa/0960011001" onclick="return confirm(&quot;Anda yakin...??&quot;)" class="link" >Hapus</a></td> 
                   </tr>
                 <tr>
+                  <td align="center">2</td>
                   <td align="center">2016200123</td>  
                   <td align="center">Ahmad Suhaili</td>
                   <td align="center">2017</td>
@@ -48,6 +51,7 @@
                     <a href="http://localhost/siakad-master/admin/hapus_mahasiswa/2016200123" onclick="return confirm(&quot;Anda yakin...??&quot;)" class="link" >Hapus</a>      </td> 
                   </tr>
                 <tr>
+                  <td align="center">3</td>
                   <td align="center">20162001234</td> 
                   <td align="center">Andi</td>
                   <td align="center">2016</td>

@@ -10,7 +10,7 @@ class Admin extends CI_Controller {
 
 	public function nilai()
 	{
-		$this->load->view('admin/nilai-mahasiswa');
+		$this->load->view('admin/nilai');
 	}
 
 	public function dosen()

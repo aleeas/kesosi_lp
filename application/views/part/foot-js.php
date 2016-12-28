@@ -11,6 +11,7 @@
 <script type="text/javascript" src="<?php echo base_url("assets/js/stack.js"); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/lightbox-plus-jquery.min.js"); ?>"></script>
 <!-- <script type="text/javascript" src="<?php echo base_url("assets/js/jquery.colorbox.js"); ?>"></script> -->
+<script src="<?php echo base_url();?>assets/js/jquery.maskMoney.js"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/slick.js"); ?>"></script>
 <script type="text/javascript" src="<?php echo base_url("assets/js/sweetalert/sweetalert.min.js"); ?>"></script>
 
@@ -36,7 +37,10 @@
 		$('.gal-button a').css({"color": "#fff", "text-decoration": "none"});
 		$('#seminar').hide();
 	});
-	 
+
+	$('[data-currency="amount"]').maskMoney();
+	
+	
 </script>
 
 
