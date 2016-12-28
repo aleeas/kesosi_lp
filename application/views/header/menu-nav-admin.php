@@ -14,7 +14,7 @@
 
         <li><a href="<?php echo site_url("admin/mahasiswa");?>" class="<?php if($this->uri->uri_string() == 'admin/mahasiswa') { echo 'active'; } ?>">Mahasiswa</a></li>
 
-        <li><a href="<?php echo site_url("admin/maba");?>" class="<?php if($this->uri->uri_string() == 'admin/maba') { echo 'active'; } ?>">List Mahasiswa Baru</a></li> 
+        <li><a href="<?php echo site_url("admin/maba");?>" class="<?php if($this->uri->uri_string() == 'admin/maba') { echo 'active'; } ?>">List PMB ONLINE</a></li> 
 
         <li style="float:right" class="acc-menu">
         	<a href="javascript:;">Account</a>
