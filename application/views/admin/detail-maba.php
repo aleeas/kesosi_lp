@@ -53,6 +53,11 @@
                     </div>
 
                     <div class="form-grp">                    
+                        <label>Nama Ayah Kandung</label>
+                         <div class="value-text"><?php echo $detail->nama_ayah?></div>
+                    </div>
+
+                    <div class="form-grp">                    
                         <label>Nama Ibu Kandung</label>
                          <div class="value-text"><?php echo $detail->nama_ibu?></div>
                     </div>
