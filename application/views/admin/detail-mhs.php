@@ -18,6 +18,9 @@
                     <a href="http://localhost/sinilugos/index.php/user/ganti_password" class="button">Ganti Password</a>    <a href="http://localhost/sinilugos/index.php/user/nilai_pdf" class="button">Cetak Nilai ke PDF</a>
                 </div>
             </div>
+            <?php
+                foreach ($listdata->result_array() as $value) {
+            ?>
             <div class="center">
                 <div class="">
                     <label class="">NIM</label>
@@ -79,6 +82,9 @@
                 </div>
 
             </div>
+            <?php
+                }
+            ?>
         </fieldset>
       </div>
     </div>

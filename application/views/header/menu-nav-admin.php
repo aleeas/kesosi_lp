@@ -20,7 +20,6 @@
         	<a href="javascript:;">Account</a>
 			<ul>
 				<li><a href="#">My Account</a></li>
-                <li><a href="<?php echo site_url("admin/pmb_admin");?>" class="<?php if($this->uri->uri_string() == 'admin/pmb_admin') { echo 'active'; } ?>">PMB Online</a></li>
 				<li><a href="<?php echo site_url("auth");?>">Logout</a></li>
 			</ul>
         </li>      

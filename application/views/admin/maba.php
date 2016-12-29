@@ -23,16 +23,22 @@
                 </tr>
               </thead>
               <tbody bgcolor="#fff">
+                <?php
+                  foreach ($listdata->result_array() as $value) {
+                ?>
                 <tr style="text-align:center">
-                  <td>1</td>
-                  <td>Ahmad Suhaili</td>
-                  <td>3174000283823</td>
-                  <td>Jl Raya Citayam </td>
-                  <td>087786407337</td>
-                  <td>Menikah</td>
-                  <td>Profesi Ners</td>
-                  <td><a href="<?php echo site_url("admin/mabadetail"); ?>">Detail</a></td>
+                  <td><?php echo $value['id']?></td>
+                  <td><?php echo $value['nama_lengkap']?></td>
+                  <td><?php echo $value['no_ktp']?></td>
+                  <td><?php echo $value['alamat']?></td>
+                  <td><?php echo $value['no_hp']?></td>
+                  <td><?php echo $value['status_kawin']?></td>
+                  <td><?php echo $value['prog_study']?></td>
+                  <td><a href="<?php echo site_url()."/admin/mabadetail/".$value['id'] ?>">Detail</a></td>
                 </tr>
+                <?php
+                  }
+                ?>
               </tbody>
           </table>
       </div>

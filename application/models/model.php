@@ -32,5 +32,24 @@ class Model extends CI_Model
 		}
 	}
 
+	public function getlist_pmb()
+	{
+		$this->db->order_by('id','asc');
+		$this->db->select('*');
+		$this->db->from('pmb');
+		$query = $this->db->get();
+		return $query;
+	}
+
+	public function detail_pmb($id)
+	{
+		$this->db->order_by('id','asc');
+		$this->db->select('*');
+		$this->db->from('pmb');
+		$this->db->where('id',$id);
+		$query = $this->db->get();
+		return $query->row();
+	}
+
 }
 ?>

@@ -23,70 +23,70 @@
                 <div class="left">
                         <div class="form-grp">
                             <label>Nama Lengkap</label>
-                            <div class="value-text">Ahmad Suhaili</div>
+                            <div class="value-text"><?php echo $detail->nama_lengkap?></div>
                         </div>
                         <div class="form-grp">
                             <label>Nama Panggilan</label>
-                            <div class="value-text">Ali</div>
+                            <div class="value-text"><?php echo $detail->nama_panggilan?></div>
                         </div> 
                         <div class="form-grp">                    
                             <label>No Identitas</label>
-                             <div class="value-text">3174000283823</div>
+                             <div class="value-text"><?php echo $detail->no_ktp?></div>
                         </div>
                         <div class="form-grp">
                             <label>Tempat &amp; Tanggal Lahir</label>
-                            <div class="value-text">Jakarta, 05 November 1990</div>
+                            <div class="value-text"><?php echo $detail->tempat_lahir?>, <?php echo $detail->tanggal_lahir?></div>
                         </div>
                          <div class="form-grp">
                             <label>Jenis Kelamin</label>
-                            <div class="value-text">Pria</div>
+                            <div class="value-text"><?php echo $detail->jenkel?></div>
                         </div>
                 </div>
                 <div class="center">
                     <div class="form-grp">                    
                         <label>Agama</label>
-                         <div class="value-text">Islam</div>
+                         <div class="value-text"><?php echo $detail->agama?></div>
                     </div>
                     <div class="form-grp">                    
                         <label>Telp Rumah</label>
-                         <div class="value-text">021 7988827</div>
+                         <div class="value-text"><?php echo $detail->telp_rumah?></div>
                     </div>
 
                     <div class="form-grp">                    
                         <label>Nama Ibu Kandung</label>
-                         <div class="value-text">Munawaroh</div>
+                         <div class="value-text"><?php echo $detail->nama_ibu?></div>
                     </div>
 
                     <div class="form-grp">                    
                         <label>No Hp</label>
-                         <div class="value-text">087786407337</div>
+                         <div class="value-text"><?php echo $detail->no_hp?></div>
                     </div>
                     <div class="form-grp">
                         <label>Email Address</label>
-                        <div class="value-text">ahmadsuhaili244@gmail.com</div>
+                        <div class="value-text"><?php echo $detail->email?></div>
                     </div>
                 </div>
 
                 <div class="right">
                     <div class="form-grp">
                         <label>Alamat Mahasiswa</label>
-                        <div class="value-text">jl kalibata pulo</div>
+                        <div class="value-text"><?php echo $detail->alamat?></div>
                     </div>
                     <div class="form-grp">
                         <label>Kelurahan</label>
-                        <div class="value-text">Kalibata</div>
-                    </div> 
-                    <div class="form-grp">
-                        <label>Kota</label>
-                        <div class="value-text">Jakarta Selatan</div>
+                        <div class="value-text"><?php echo $detail->kelurahan?></div>
                     </div>
                     <div class="form-grp">
                         <label>Kecamatan</label>
-                        <div class="value-text">Pancoran</div>
+                        <div class="value-text"><?php echo $detail->kecamatan?></div>
+                    </div> 
+                    <div class="form-grp">
+                        <label>Kota</label>
+                        <div class="value-text"><?php echo $detail->kota?></div>
                     </div>
                     <div class="form-grp">
                         <label>Kode Pos</label>
-                        <div class="value-text">12740</div>
+                        <div class="value-text"><?php echo $detail->kode_pos?></div>
                     </div>
                 </div>  
               </div>
@@ -94,26 +94,26 @@
               <div id="tabs-3">
                     <div class="form-grp">                    
                         <label>Status Pekerjaan</label>
-                        <div class="value-text">Bekerja</div>
+                        <div class="value-text"><?php echo $detail->status_kerja?></div>
                     </div>
                     <div class="form-grp">                    
                         <label>Nama Intansi</label>
-                        <div class="value-text">PT Asia Quattro Net</div>
+                        <div class="value-text"><?php echo $detail->nama_perusahaan?></div>
                     </div>
 
                     <div class="form-grp">                    
                         <label>Status Pernikahan</label>
-                        <div class="value-text">Menikah</div>
+                        <div class="value-text"><?php echo $detail->status_kawin?></div>
                     </div>
 
                     <div class="form-grp">                    
                         <label>Program Studi</label>
-                        <div class="value-text">Profesi Ners</div>
+                        <div class="value-text"><?php echo $detail->prog_study?></div>
                     </div>
 
                     <div class="form-grp">                    
                         <label>Ukuran Jaket</label>
-                        <div class="value-text">XL</div>
+                        <div class="value-text"><?php echo $detail->ukuran_jaket?></div>
                     </div>
               </div>
             </div>
