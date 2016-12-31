@@ -14,10 +14,17 @@ class Auth extends CI_Controller {
 			);
 		$result = $this->Model->checklogin($datalogin);
 		if($result){
-			if($result->lvl == '1'){
+			if($result->lvl == '1')
+			{
 				$this->adminpanel();
-			}else{
+			}
+			elseif($result->lvl =='2')
+			{
 				$this->userpanel();
+			}
+			else
+			{
+				$this->financepanel();
 			}
 		}else{
 			echo "<script>alert('Not found')</script>";
@@ -30,5 +37,9 @@ class Auth extends CI_Controller {
 
 	public function adminpanel(){
 		$this->load->view('admin/dashboard');
+	}
+
+	public function financepanel(){
+		$this->load->view('finance/dashboard');
 	}
 }
