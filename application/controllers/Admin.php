@@ -19,7 +19,10 @@ class Admin extends CI_Controller {
 	{
 		$this->load->view('admin/nilai');
 	}
-
+	public function input_nilai_mhs()
+	{
+		$this->load->view('admin/input-nilai');
+	}
 	public function dosen()
 	{
 		$this->load->view('admin/dosen');
