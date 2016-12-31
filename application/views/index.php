@@ -10,7 +10,7 @@
     <div id="content">
       <!--banner section -->
       <div id="banner_wrapp">
-        <div id="banner"><img src="<?php echo base_url("assets/images/273.jpg"); ?>" alt="" /></div>
+        <div id="banner"><img src="<?php echo base_url("assets/images/album/P_20161210_090107.jpg"); ?>" alt="" /></div>
       </div>
       <!--News and spotlight container -->
       <div class="outer_row">
@@ -36,11 +36,6 @@
               </div>
             </div>
           </div>
-
-
-
-
-
 
           <div class="news_slider">
             <h2>News and Events</h2>

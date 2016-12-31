@@ -18,9 +18,9 @@
               <button class="gal-button" data-click="expand-wisuda" id="wisuda">Expand Gallery</button>
              
               <figure class="stack stack-randomrot">
-                <img src="<?php echo base_url("assets/images/kecil_32P1050822.jpg") ?>" alt="img01"/>
-                <img src="<?php echo base_url("assets/images/kecil_32P1050822.jpg") ?>" alt="img02"/>
-                <img src="<?php echo base_url("assets/images/kecil_32P1050822.jpg") ?>" alt="img03"/>
+                <img src="<?php echo base_url("assets/images/album/P_20161210_085837.jpg") ?>" alt="img01"/>
+                <img src="<?php echo base_url("assets/images/album/P_20161210_085941.jpg") ?>" alt="img02"/>
+                <img src="<?php echo base_url("assets/images/album/P_20161210_114335.jpg") ?>" alt="img03"/>
               </figure>
             </section>
           </li>
@@ -30,9 +30,9 @@
               <div id="gal-btn-2" style="display:none" class="gal-button"><a href="<?php echo site_url("website/gal_kegiatan");?>" class="view-gallery-btn">View All Gallery</a></div>
               <button class="gal-button" data-click="expand-kegiatan" id="kegiatan">Expand Gallery</button>
               <figure class="stack stack-fanout">
-                <img src="<?php echo base_url("assets/images/kecil_8110369313_1048969175162322_624702794_n.jpg") ?>" alt="img01"/>
-                <img src="<?php echo base_url("assets/images/kecil_8110369313_1048969175162322_624702794_n.jpg") ?>" alt="img02"/>
-                <img src="<?php echo base_url("assets/images/kecil_8110369313_1048969175162322_624702794_n.jpg") ?>" alt="img03"/>
+                <img src="<?php echo base_url("assets/images/album/P_20160820_151513.jpg") ?>" alt="img01"/>
+                <img src="<?php echo base_url("assets/images/album/P_20160820_150811.jpg") ?>" alt="img02"/>
+                <img src="<?php echo base_url("assets/images/album/P_20160820_103218.jpg") ?>" alt="img03"/>
               </figure>
             </section>
           </li>
@@ -42,9 +42,9 @@
               <div id="gal-btn-3" style="display:none" class="gal-button"><a href="<?php echo site_url("website/gal_seminar");?>" class="view-gallery-btn">View All Gallery</a></div>
               <button class="gal-button" data-click="expand-seminar" id="seminar">Expand Gallery</button>
               <figure class="stack stack-sideslide">
-                <img src="<?php echo base_url("assets/images/kecil_42IMG_3271.jpg") ?>" alt="img01"/>
-                <img src="<?php echo base_url("assets/images/kecil_42IMG_3271.jpg") ?>" alt="img02"/>
-                <img src="<?php echo base_url("assets/images/kecil_42IMG_3271.jpg") ?>" alt="img03"/>
+                <img src="<?php echo base_url("assets/images/album/P_20160830_145407.jpg") ?>" alt="img01"/>
+                <img src="<?php echo base_url("assets/images/album/P_20161210_090107.jpg") ?>" alt="img02"/>
+                <img src="<?php echo base_url("assets/images/album/P_20160909_110346.jpg") ?>" alt="img03"/>
               </figure>
             </section>
           </li>
