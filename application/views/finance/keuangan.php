@@ -5,7 +5,7 @@
     <!--header -->
     <?php $this->load->view('header/header-menu') ?>
     <!--Menu Area -->
-    <?php $this->load->view('header/menu-nav-admin') ?>
+    <?php $this->load->view('header/menu-nav-finance') ?>
     <!--content area -->
     <div id="content">
 	    <div class="wrapper-board" style="float:left;width:100%; max-width:920px;">

@@ -30,11 +30,6 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/matakuliah');
 	}
 
-	public function keuangan()
-	{
-		$this->load->view('admin/keuangan');
-	}
-
 	public function mahasiswa()
 	{
 		$this->load->view('admin/mahasiswa');
