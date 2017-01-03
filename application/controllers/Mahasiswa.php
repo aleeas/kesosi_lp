@@ -15,6 +15,10 @@ class Mahasiswa extends CI_Controller {
 	{
 		$this->load->view('mahasiswa/print-krs');
 	}
+	public function print_khs()
+	{
+		$this->load->view('mahasiswa/print-khs');
+	}
 	public function krs_confirm()
 	{
 		$this->load->view('mahasiswa/krs-confirm');
